@@ -1,7 +1,7 @@
 from pathlib import Path
 import re
-from ...infrastructure.fs_repo import walk
-from ...domain.types import TodoHit
+from infrastructure.fs_repo import walk
+from domain.types import TodoHit
 
 class FindTodosUseCase:
     def execute(self, root: str):

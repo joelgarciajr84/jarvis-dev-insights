@@ -1,7 +1,7 @@
 import re
 from typing import List
-from ...domain.types import ReviewIssue
-from ...domain.review_rules import (
+from domain.types import ReviewIssue
+from domain.review_rules import (
     MAX_FN_LINES, MAX_LINE_LENGTH, MAGIC_NUMBER_THRESHOLD, CAMEL_CASE, jarvis_voice
 )
 from ..text_utils import split_lines

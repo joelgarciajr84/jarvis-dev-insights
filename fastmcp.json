@@ -1,0 +1,6 @@
+{
+  "server": "src/presentation/server.py",
+  "format": "fastmcp",
+  "output": "/tmp/server-info.json",
+  "env": { "PYTHONPATH": "./src" }
+}

@@ -2,7 +2,7 @@ from __future__ import annotations
 from pathlib import Path
 from typing import Dict, List
 from .text_utils import count_lines
-from ..domain.types import RepoMetrics
+from domain.types import RepoMetrics
 
 LANG_MAP = {
     ".ts": "TypeScript", ".tsx": "TypeScript/React",

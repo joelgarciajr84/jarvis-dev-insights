@@ -1,4 +1,4 @@
-from ...infrastructure.fs_repo import compute_repo_metrics
+from infrastructure.fs_repo import compute_repo_metrics
 
 class ScanRepoUseCase:
     def execute(self, root: str):

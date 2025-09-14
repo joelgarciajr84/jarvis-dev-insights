@@ -1,7 +1,7 @@
 from pathlib import Path
-from ...infrastructure.fs_repo import walk
-from ...infrastructure.linters.simple_ts_js__py_linter import lint_ts_js_py
-from ...domain.types import ReviewReport, ReviewIssue
+from infrastructure.fs_repo import walk
+from infrastructure.linters.simple_ts_js__py_linter import lint_ts_js_py
+from domain.types import ReviewReport, ReviewIssue
 
 class ReviewCodeUseCase:
     def execute(self, root: str) -> ReviewReport:
