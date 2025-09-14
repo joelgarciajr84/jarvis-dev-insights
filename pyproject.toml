@@ -1,0 +1,6 @@
+[project]
+name = "jarvis-dev-insights"
+version = "0.2.0"
+description = "MCP server (FastMCP) para insights de repositório e code review"
+requires-python = ">=3.10"
+dependencies = ["fastmcp>=2.2.0"]
