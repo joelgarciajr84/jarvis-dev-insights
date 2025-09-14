@@ -1,3 +1,6 @@
+import os, sys
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
 from fastmcp import FastMCP
 from application.usecases.scan_repo import ScanRepoUseCase
 from application.usecases.find_todos import FindTodosUseCase
