@@ -1,6 +1,8 @@
 # Jarvis Dev Insights
 
-Um Simplçes MCP Server Para code Review:
+https://fastmcp.cloud/app/jarvis-tech-lead
+
+Um Simples MCP Server Para code Review:
 
 - Scan do repositório (arquivos, linguagens, CI/tests)
 - Busca de TODO/FIXME
