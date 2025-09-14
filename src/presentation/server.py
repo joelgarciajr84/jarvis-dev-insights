@@ -1,9 +1,9 @@
 from fastmcp import FastMCP
-from src.application.usecases.scan_repo import ScanRepoUseCase
-from src.application.usecases.find_todos import FindTodosUseCase
-from src.application.usecases.summarize_md import SummarizeMdUseCase
-from src.application.usecases.review_code import ReviewCodeUseCase
-from src.domain.types import ReviewReport
+from application.usecases.scan_repo import ScanRepoUseCase
+from application.usecases.find_todos import FindTodosUseCase
+from application.usecases.summarize_md import SummarizeMdUseCase
+from application.usecases.review_code import ReviewCodeUseCase
+from domain.types import ReviewReport
 from pathlib import Path
 
 mcp = FastMCP(name="jarvis-dev-insights")
